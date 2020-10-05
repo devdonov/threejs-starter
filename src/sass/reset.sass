@@ -1,0 +1,22 @@
+@use 'mixins.sass'
+  
+html
+  box-sizing: border-box
+
+
+*, *::after, *::before 
+  box-sizing: border-box
+
+
+body 
+  padding: 0
+  margin: 0
+  @include mixins.font-smoothing
+  overscroll-behavior: none
+
+canvas
+  position: fixed
+  top: 0
+  left: 0
+  z-index: -1
+  pointer-events: none
