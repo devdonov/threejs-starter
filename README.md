@@ -1,7 +1,7 @@
 # THREE JS starter
 
-## Project stack
+### Project stack
 * HTML + SASS + JS
 
-## Project modules bundler
+### Project modules bundler
 * Parcel 
